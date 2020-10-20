@@ -399,6 +399,12 @@ $(document).ready(function () {
           text: "",
         },
         {
+          type: "ok",
+          label: "OK",
+          classes: "oksss-btn",
+          text: "",
+        },
+        {
           type: "play",
           label: "Play",
           classes: "play-btn",

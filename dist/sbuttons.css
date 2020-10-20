@@ -2715,6 +2715,17 @@ a.yellow-btn:active:not(.fill-color-btn) {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
+.ok-btn::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  color: #000;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 .drop-down-btn {
   position: relative;
   padding-right: 1.5em;
